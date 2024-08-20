@@ -1,0 +1,128 @@
+
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+
+.logout-button {
+  color: #ffffff;
+  background-color: #ff4500; /* OrangeRed color */
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none; /* Remove underline if it's a link */
+  display: inline-block; /* Ensure button-like appearance if it's a link */
+}
+
+.resign-button{
+  color: #ffffff;
+  background-color: red;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none; /* Remove underline if it's a link */
+  display: inline-block; /* Ensure button-like appearance if it's a link */}
+
+
+.nav-layout {
+  background-color: #ff6f61; /* Vibrant coral/orange color */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.nav-layout  span, .nav-layout a {
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.nav-layout  span:hover, .nav-layout a:hover {
+  color: #ffcc00; /* Bright yellow for hover effect */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+
+/* Main content styles */
+main {
+  padding: 30px;
+  min-height: calc(100vh - 100px); /* Adjust height to account for footer */
+  background-color: #ffffff;
+  margin: 0 auto;
+  max-width: 1200px;
+  border-radius: 8px; /* Rounded corners for the main content area */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Deeper shadow for main content */
+}
+
+/* Footer styles */
+footer {
+  background-color: #ff6f61; /* Matching the orange theme */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position:relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: -1.5%;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Shadow on top of footer */
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-layout  {
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  .nav-layout  span, .nav-layout a {
+      margin: 10px 0;
+  }
+
+  main {
+      padding: 20px;
+  }
+}
+
+#user-session {
+  font-size: 1.1rem;
+  color: #ff6347; /* Orange color */
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 10px 15px;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: inline-block;
+  font-weight: bold;
+}
+
+#user-session::before {
+  content: "🔒 "; /* Lock emoji to emphasize login status */
+  font-size: 1.1rem;
+}
+#big-block{
+  height: 100px; /* Adjust the height as needed */
+}

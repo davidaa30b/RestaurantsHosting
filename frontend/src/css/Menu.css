@@ -1,0 +1,136 @@
+/* Main container */
+.menu-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu Header */
+.menu-container h3 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Sorting Options */
+.sorting-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sorting-options label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.sorting-options select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+/* Dish Card */
+.dish-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.dish-card .dish-image {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.dish-card .dish-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.dish-card .dish-details {
+  flex-grow: 1;
+}
+
+.dish-card .dish-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.dish-card .dish-characteristics {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.dish-card .dish-characteristics strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Button styles */
+.dish-card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dish-card button:hover {
+  background-color: #218838;
+}
+
+.dish-card button:first-of-type {
+  background-color: #007bff;
+  margin-right: 10px;
+}
+
+.dish-card button:first-of-type:hover {
+  background-color: #0069d9;
+}
+
+/* Rating input and buttons */
+.rating-input {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rating-input input {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.rating-input button {
+  background-color: #ffc107;
+}
+
+.rating-input button:hover {
+  background-color: #e0a800;
+}
+
+#delete-button{
+  margin-left: 10px;
+  background-color:red;
+}

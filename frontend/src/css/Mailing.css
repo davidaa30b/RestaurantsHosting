@@ -1,0 +1,202 @@
+.apply-for-manager-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+
+  }
+  /* Heading and instructions */
+  .apply-for-manager-container p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .apply-for-manager-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Labels and inputs */
+  .apply-for-manager-container label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .apply-for-manager-container input,
+  .apply-for-manager-container textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .apply-for-manager-container input[disabled] {
+    background-color: #f1f1f1;
+    cursor: not-allowed;
+  }
+  
+  /* Flexbox layout for the first and second line */
+  .apply-for-manager-container .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .apply-for-manager-container .form-row > div {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .apply-for-manager-container .form-row > div:last-child {
+    margin-right: 0;
+  }
+  
+  /* Submit button */
+  .apply-for-manager-container button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+  }
+  
+  .apply-for-manager-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .apply-for-manager-container select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .apply-for-manager-container select option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+  }
+
+  
+
+  /*GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG*/
+  .replay-to-manager-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+
+  }
+  /* Heading and instructions */
+  .replay-to-manager-container p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .replay-to-manager-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Labels and inputs */
+  .replay-to-manager-container label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .replay-to-manager-container input,
+  .replay-to-manager-container textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .replay-to-manager-container input[disabled] {
+    background-color: #f1f1f1;
+    cursor: not-allowed;
+  }
+  
+  /* Flexbox layout for the first and second line */
+  .replay-to-manager-container .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .replay-to-manager-container .form-row > div {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .replay-to-manager-container .form-row > div:last-child {
+    margin-right: 0;
+  }
+  
+  /* Submit button */
+  .replay-to-manager-container button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+  }
+  
+  .replay-to-manager-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .replay-to-manager-container select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .replay-to-manager-container select option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+  }
+
+  
