@@ -1,0 +1,33 @@
+.go-back-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding for button size */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold;
+    color: white;
+    background-color: #ff6f61; /* Matching theme color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    text-align: center;
+    text-decoration: none; /* Remove underline for link buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    margin-left:10px;
+  }
+  
+  .go-back-button:hover {
+    background-color: #e55b4f; /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
+  .go-back-button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(255, 111, 97, 0.5); /* Custom focus ring */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .go-back-button {
+      font-size: 14px; /* Smaller font size on smaller screens */
+      padding: 8px 16px; /* Adjust padding for smaller screens */
+    }
+  }
